@@ -1,7 +1,7 @@
 @extends("layout")
 
 @section("content")
-				<section class="page-header page-header-modern page-header-background page-header-background-sm m-0" style="background-image: url(/pub/img/demos/industry-factory/backgrounds/background-2.jpg); background-size: cover; background-position: center;">
+				<section class="page-header page-header-modern page-header-background page-header-background-sm m-0" style="background-image: url({{ URL::to('/') }}/pub/img/demos/industry-factory/backgrounds/background-2.jpg); background-size: cover; background-position: center;">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-8 order-2 order-md-1 align-self-center p-static">
@@ -21,7 +21,7 @@
 					<div class="container position-relative z-index-3 my-5">
 						<div class="row align-items-center justify-content-center">
 							<div class="col-lg-6 pr-lg-5 mb-4 mb-lg-0">
-								<img src="/pub/img/demos/industry-factory/generic/generic-2.jpg" class="img-fluid box-shadow-3 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200" alt="" />
+								<img src="{{ URL::to('/') }}/pub/img/demos/industry-factory/generic/generic-2.jpg" class="img-fluid box-shadow-3 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200" alt="" />
 							</div>
 							<div class="col-lg-6 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="500">
 								<h2 class="text-color-primary font-weight-medium positive-ls-3 text-4 mb-0">PORTO CORPORATION</h2>
@@ -43,7 +43,7 @@
 								<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur. Vestibulum auctor felis eget orci semper vestibulum. Pellentesque ultricies nibh gravida, accumsan libero luctus, molestie nunc. In nibh ipsum, blandit id faucibus ac, finibus vitae dui.</p>
 							</div>
 							<div class="col-lg-6 order-1 order-lg-2 pl-lg-5 mb-4 mb-lg-0">
-								<img src="/pub/img/demos/industry-factory/generic/generic-1.jpg" class="img-fluid box-shadow-3 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="500" alt="" />
+								<img src="{{ URL::to('/') }}/pub/img/demos/industry-factory/generic/generic-1.jpg" class="img-fluid box-shadow-3 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="500" alt="" />
 							</div>
 						</div>
 					</div>
@@ -107,7 +107,7 @@
 					</div>
 				</section>
 
-				<section class="section section-height-3 overlay overlay-show overlay-color-primary overlay-op-8 border-0 m-0" style="background-image: url(/pub/img/demos/industry-factory/backgrounds/background-2.jpg); background-size: cover; background-position: center;">
+				<section class="section section-height-3 overlay overlay-show overlay-color-primary overlay-op-8 border-0 m-0" style="background-image: url({{ URL::to('/') }}/pub/img/demos/industry-factory/backgrounds/background-2.jpg); background-size: cover; background-position: center;">
 					<div class="container py-3">
 						<div class="row align-items-center justify-content-center text-center text-lg-left">
 							<div class="col-md-8 col-lg-9 mb-4 mb-lg-0">

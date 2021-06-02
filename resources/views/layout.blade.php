@@ -13,8 +13,8 @@
 		<meta name="author" content="okler.net">
 
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="/pub/img/favicon.ico" type="image/x-icon" />
-		<link rel="apple-touch-icon" href="/pub/img/apple-touch-icon.png">
+		<link rel="shortcut icon" href="{{ URL::to('/') }}/pub/img/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="{{ URL::to('/') }}/pub/img/apple-touch-icon.png">
 
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
@@ -23,38 +23,38 @@
 		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CPlayfair+Display:400,700,900&display=swap" rel="stylesheet" type="text/css">
 
 		<!-- Vendor CSS -->
-		<link rel="stylesheet" href="/pub/vendor/bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="/pub/vendor/fontawesome-free/css/all.min.css">
-		<link rel="stylesheet" href="/pub/vendor/animate/animate.compat.css">
-		<link rel="stylesheet" href="/pub/vendor/simple-line-icons/css/simple-line-icons.min.css">
-		<link rel="stylesheet" href="/pub/vendor/owl.carousel/assets/owl.carousel.min.css">
-		<link rel="stylesheet" href="/pub/vendor/owl.carousel/assets/owl.theme.default.min.css">
-		<link rel="stylesheet" href="/pub/vendor/magnific-popup/magnific-popup.min.css">
+		<link rel="stylesheet" href="{{ URL::to('/') }}/pub/vendor/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="{{ URL::to('/') }}/pub/vendor/fontawesome-free/css/all.min.css">
+		<link rel="stylesheet" href="{{ URL::to('/') }}/pub/vendor/animate/animate.compat.css">
+		<link rel="stylesheet" href="{{ URL::to('/') }}/pub/vendor/simple-line-icons/css/simple-line-icons.min.css">
+		<link rel="stylesheet" href="{{ URL::to('/') }}/pub/vendor/owl.carousel/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="{{ URL::to('/') }}/pub/vendor/owl.carousel/assets/owl.theme.default.min.css">
+		<link rel="stylesheet" href="{{ URL::to('/') }}/pub/vendor/magnific-popup/magnific-popup.min.css">
 
 		<!-- Theme CSS -->
-		<link rel="stylesheet" href="/pub/css/theme.css">
-		<link rel="stylesheet" href="/pub/css/theme-elements.css">
-		<link rel="stylesheet" href="/pub/css/theme-blog.css">
-		<link rel="stylesheet" href="/pub/css/theme-shop.css">
+		<link rel="stylesheet" href="{{ URL::to('/') }}/pub/css/theme.css">
+		<link rel="stylesheet" href="{{ URL::to('/') }}/pub/css/theme-elements.css">
+		<link rel="stylesheet" href="{{ URL::to('/') }}/pub/css/theme-blog.css">
+		<link rel="stylesheet" href="{{ URL::to('/') }}/pub/css/theme-shop.css">
 
 		<!-- Current Page CSS -->
-		<link rel="stylesheet" href="/pub/vendor/rs-plugin/css/settings.css">
-		<link rel="stylesheet" href="/pub/vendor/rs-plugin/css/layers.css">
-		<link rel="stylesheet" href="/pub/vendor/rs-plugin/css/navigation.css">
-		<link rel="stylesheet" href="/pub/vendor/circle-flip-slideshow/css/component.css">
+		<link rel="stylesheet" href="{{ URL::to('/') }}/pub/vendor/rs-plugin/css/settings.css">
+		<link rel="stylesheet" href="{{ URL::to('/') }}/pub/vendor/rs-plugin/css/layers.css">
+		<link rel="stylesheet" href="{{ URL::to('/') }}/pub/vendor/rs-plugin/css/navigation.css">
+		<link rel="stylesheet" href="{{ URL::to('/') }}/pub/vendor/circle-flip-slideshow/css/component.css">
 
 		<!-- Demo CSS -->
-		<link rel="stylesheet" href="/pub/css/demos/demo-industry-factory.css">
+		<link rel="stylesheet" href="{{ URL::to('/') }}/pub/css/demos/demo-industry-factory.css">
 
 		<!-- Skin CSS -->
-        <link rel="stylesheet" href="/pub/css/skins/default.css"> 
-		<link rel="stylesheet" href="/pub/css/skins/skin-industry-factory.css"> 
+        <link rel="stylesheet" href="{{ URL::to('/') }}/pub/css/skins/default.css"> 
+		<link rel="stylesheet" href="{{ URL::to('/') }}/pub/css/skins/skin-industry-factory.css"> 
 
 		<!-- Theme Custom CSS -->
-		<link rel="stylesheet" href="/pub/css/custom.css">
+		<link rel="stylesheet" href="{{ URL::to('/') }}/pub/css/custom.css">
 
 		<!-- Head Libs -->
-		<script src="/pub/vendor/modernizr/modernizr.min.js"></script>
+		<script src="{{ URL::to('/') }}/pub/vendor/modernizr/modernizr.min.js"></script>
 
 	</head>
 	<body>
@@ -103,7 +103,7 @@
 								<div class="header-row">
 									<div class="header-logo">
 										<a href="demo-industry-factory.html">
-											<img src="/pub/img/demos/industry-factory/logo.png" class="img-fluid" width="123" height="33" alt="" />
+											<img src="{{ URL::to('/') }}/pub/img/demos/industry-factory/logo.png" class="img-fluid" width="123" height="33" alt="" />
 										</a>
 									</div>
 								</div>
@@ -166,7 +166,7 @@
 					<div class="row">
 						<div class="col-lg-3 mb-5 mb-lg-0">
 							<a href="demo-industry-factory.html">
-								<img src="/pub/img/demos/industry-factory/logo-light.png" class="img-fluid mb-4" alt="Demo Industry & Factory" />
+								<img src="{{ URL::to('/') }}/pub/img/demos/industry-factory/logo-light.png" class="img-fluid mb-4" alt="Demo Industry & Factory" />
 							</a>
 							<p class="mb-0"><strong class="text-color-light">PT. Camiloplas Jaya Makmur, Plastic Manufacturing</strong></p>
 							<p>Jl. Aria Jaya Santika No. 18 RT 02 Kp Seglog Desa Pasir Bolang Tigaraksa Tangerang 15720</p>
@@ -227,46 +227,46 @@
 		</div>
         @yield("footer")
 		<!-- Vendor -->
-		<script src="/pub/vendor/jquery/jquery.min.js"></script>
-		<script src="/pub/vendor/jquery.appear/jquery.appear.min.js"></script>
-		<script src="/pub/vendor/jquery.easing/jquery.easing.min.js"></script>
-		<script src="/pub/vendor/jquery.cookie/jquery.cookie.min.js"></script>
-		<script src="/pub/vendor/popper/umd/popper.min.js"></script>
-		<script src="/pub/vendor/bootstrap/js/bootstrap.min.js"></script>
-		<script src="/pub/vendor/common/common.min.js"></script>
-		<script src="/pub/vendor/jquery.validation/jquery.validate.min.js"></script>
-		<script src="/pub/vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
-		<script src="/pub/vendor/jquery.gmap/jquery.gmap.min.js"></script>
-		<script src="/pub/vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
-		<script src="/pub/vendor/isotope/jquery.isotope.min.js"></script>
-		<script src="/pub/vendor/owl.carousel/owl.carousel.min.js"></script>
-		<script src="/pub/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-		<script src="/pub/vendor/vide/jquery.vide.min.js"></script>
-		<script src="/pub/vendor/vivus/vivus.min.js"></script>
+		<script src="{{ URL::to('/') }}/pub/vendor/jquery/jquery.min.js"></script>
+		<script src="{{ URL::to('/') }}/pub/vendor/jquery.appear/jquery.appear.min.js"></script>
+		<script src="{{ URL::to('/') }}/pub/vendor/jquery.easing/jquery.easing.min.js"></script>
+		<script src="{{ URL::to('/') }}/pub/vendor/jquery.cookie/jquery.cookie.min.js"></script>
+		<script src="{{ URL::to('/') }}/pub/vendor/popper/umd/popper.min.js"></script>
+		<script src="{{ URL::to('/') }}/pub/vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script src="{{ URL::to('/') }}/pub/vendor/common/common.min.js"></script>
+		<script src="{{ URL::to('/') }}/pub/vendor/jquery.validation/jquery.validate.min.js"></script>
+		<script src="{{ URL::to('/') }}/pub/vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
+		<script src="{{ URL::to('/') }}/pub/vendor/jquery.gmap/jquery.gmap.min.js"></script>
+		<script src="{{ URL::to('/') }}/pub/vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
+		<script src="{{ URL::to('/') }}/pub/vendor/isotope/jquery.isotope.min.js"></script>
+		<script src="{{ URL::to('/') }}/pub/vendor/owl.carousel/owl.carousel.min.js"></script>
+		<script src="{{ URL::to('/') }}/pub/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+		<script src="{{ URL::to('/') }}/pub/vendor/vide/jquery.vide.min.js"></script>
+		<script src="{{ URL::to('/') }}/pub/vendor/vivus/vivus.min.js"></script>
 
 		<!--(remove-empty-lines-end)-->
 
 		<!-- Theme Base, Components and Settings -->
-		<script src="/pub/js/theme.js"></script>
+		<script src="{{ URL::to('/') }}/pub/js/theme.js"></script>
 
 
 		<!-- Current Page Vendor and Views -->
-		<script src="/pub/js/views/view.contact.js"></script>
-        <script src="/pub/vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-		<script src="/pub/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-		<script src="/pub/vendor/circle-flip-slideshow/js/jquery.flipshow.min.js"></script>
-		<script src="/pub/js/views/view.home.js"></script>
+		<script src="{{ URL::to('/') }}/pub/js/views/view.contact.js"></script>
+        <script src="{{ URL::to('/') }}/pub/vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+		<script src="{{ URL::to('/') }}/pub/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+		<script src="{{ URL::to('/') }}/pub/vendor/circle-flip-slideshow/js/jquery.flipshow.min.js"></script>
+		<script src="{{ URL::to('/') }}/pub/js/views/view.home.js"></script>
 
 
 		<!-- Demo -->
-		<script src="/pub/js/demos/demo-industry-factory.js"></script>
+		<script src="{{ URL::to('/') }}/pub/js/demos/demo-industry-factory.js"></script>
 
 		<!-- Theme Custom -->
-		<script src="/pub/js/custom.js"></script>
+		<script src="{{ URL::to('/') }}/pub/js/custom.js"></script>
 
 
 		<!-- Theme Initialization Files -->
-		<script src="/pub/js/theme.init.js"></script>
+		<script src="{{ URL::to('/') }}/pub/js/theme.init.js"></script>
 
 
 	

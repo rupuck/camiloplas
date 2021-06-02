@@ -6,7 +6,7 @@
 					<div id="revolutionSlider" class="slider rev_slider" data-version="5.4.8" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': 1170, 'gridheight': 670, 'disableProgressBar': 'on', 'responsiveLevels': [4096,1200,992,500], 'parallax': { 'type': 'scroll', 'origo': 'enterpoint', 'speed': 1000, 'levels': [2,3,4,5,6,7,8,9,12,50], 'disable_onmobile': 'on' }, 'navigation' : {'arrows': { 'enable': true }, 'bullets': {'enable': true, 'style': 'bullets-style-1', 'h_align': 'center', 'v_align': 'bottom', 'space': 7, 'v_offset': 70, 'h_offset': 0}}}">
 						<ul>
 							<li data-transition="fade">
-								<img src="/pub/img/slides/slider-bg-1.jpg"  
+								<img src="{{ URL::to('/') }}/pub/img/slides/slider-bg-1.jpg"  
 									alt=""
 									data-bgposition="center center" 
 									data-bgfit="cover" 
@@ -20,7 +20,7 @@
 								    data-y="top"
 								    data-width="['auto']"
 								    data-height="['auto']"
-								    data-basealign="slide"><img src="/pub/img/slides/slider-bg-2.jpg" alt=""></div>
+								    data-basealign="slide"><img src="{{ URL::to('/') }}/pub/img/slides/slider-bg-2.jpg" alt=""></div>
 
 								<div class="tp-caption tp-resizeme"
 									data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"opacity:0;x:-100%;y:-100%;","to":"o:1;x:0;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -29,7 +29,7 @@
 								    data-y="center"
 								    data-width="['auto']"
 								    data-height="['auto']"
-								    data-basealign="slide"><img src="/pub/img/slides/slider-bg-3.jpg" alt=""></div>
+								    data-basealign="slide"><img src="{{ URL::to('/') }}/pub/img/slides/slider-bg-3.jpg" alt=""></div>
 
 								<div class="tp-caption tp-resizeme rs-parallaxlevel-7"
 								    data-frames='[{"delay":2500,"speed":1500,"frame":"0","from":"opacity:0;x:-50%;y:-50%;","to":"opacity:1;x:0;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -38,14 +38,14 @@
 								    data-y="-700"
 								    data-width="['auto']"
 								    data-height="['auto']"
-								    data-basealign="slide"><img src="/pub/img/slides/slide-parallax-porto-symbol.png" alt=""></div>
+								    data-basealign="slide"><img src="{{ URL::to('/') }}/pub/img/slides/slide-parallax-porto-symbol.png" alt=""></div>
 
 								<div class="tp-caption"
 									data-x="center" data-hoffset="['-150','-150','-150','-240']"
 									data-y="center" data-voffset="['-50','-50','-50','-75']"
 									data-start="1000"
 									data-transform_in="x:[-300%];opacity:0;s:500;"
-									data-transform_idle="opacity:0.2;s:500;"><img src="/pub/img/slides/slide-title-border.png" alt=""></div>
+									data-transform_idle="opacity:0.2;s:500;"><img src="{{ URL::to('/') }}/pub/img/slides/slide-title-border.png" alt=""></div>
 
 								<div class="tp-caption text-color-light font-weight-normal"
 									data-x="center"
@@ -58,14 +58,14 @@
 								<div class="tp-caption d-none d-md-block"
 									data-frames='[{"delay":2400,"speed":500,"frame":"0","from":"opacity:0;x:10%;","to":"opacity:1;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="center" data-hoffset="['80','80','80','135']"
-									data-y="center" data-voffset="['-33','-33','-33','-55']"><img src="/pub/img/slides/slide-blue-line.png" alt=""></div>
+									data-y="center" data-voffset="['-33','-33','-33','-55']"><img src="{{ URL::to('/') }}/pub/img/slides/slide-blue-line.png" alt=""></div>
 
 								<div class="tp-caption"
 									data-x="center" data-hoffset="['150','150','150','240']"
 									data-y="center" data-voffset="['-50','-50','-50','-75']"
 									data-start="1000"
 									data-transform_in="x:[300%];opacity:0;s:500;"
-									data-transform_idle="opacity:0.2;s:500;"><img src="/pub/img/slides/slide-title-border.png" alt=""></div>
+									data-transform_idle="opacity:0.2;s:500;"><img src="{{ URL::to('/') }}/pub/img/slides/slide-title-border.png" alt=""></div>
 
 								<div class="tp-caption font-weight-extra-bold text-color-light negative-ls-2"
 									data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -96,7 +96,7 @@
 									data-y="center" data-voffset="['-50','-50','-50','-75']"
 									data-start="1000"
 									data-transform_in="x:[-300%];opacity:0;s:500;"
-									data-transform_idle="opacity:0.2;s:500;"><img src="/pub/img/slides/slide-title-border.png" alt=""></div>
+									data-transform_idle="opacity:0.2;s:500;"><img src="{{ URL::to('/') }}/pub/img/slides/slide-title-border.png" alt=""></div>
 
 								<div class="tp-caption text-color-light font-weight-normal"
 									data-x="center"
@@ -111,7 +111,7 @@
 									data-y="center" data-voffset="['-50','-50','-50','-75']"
 									data-start="1000"
 									data-transform_in="x:[300%];opacity:0;s:500;"
-									data-transform_idle="opacity:0.2;s:500;"><img src="/pub/img/slides/slide-title-border.png" alt=""></div>
+									data-transform_idle="opacity:0.2;s:500;"><img src="{{ URL::to('/') }}/pub/img/slides/slide-title-border.png" alt=""></div>
 
 								<div class="tp-caption font-weight-extra-bold text-color-light negative-ls-1"
 									data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -143,7 +143,7 @@
 									data-y="center" data-voffset="['-80','-80','-80','-130']"
 									data-start="1000"
 									data-transform_in="x:[-300%];opacity:0;s:500;"
-									data-transform_idle="opacity:0.2;s:500;"><img src="/pub/img/slides/slide-title-border.png" alt=""></div>
+									data-transform_idle="opacity:0.2;s:500;"><img src="{{ URL::to('/') }}/pub/img/slides/slide-title-border.png" alt=""></div>
 
 								<div class="tp-caption text-color-light font-weight-normal"
 									data-x="center"
@@ -158,7 +158,7 @@
 									data-y="center" data-voffset="['-80','-80','-80','-130']"
 									data-start="1000"
 									data-transform_in="x:[300%];opacity:0;s:500;"
-									data-transform_idle="opacity:0.2;s:500;"><img src="/pub/img/slides/slide-title-border.png" alt=""></div>
+									data-transform_idle="opacity:0.2;s:500;"><img src="{{ URL::to('/') }}/pub/img/slides/slide-title-border.png" alt=""></div>
 
 									<div class="tp-caption font-weight-extra-bold text-color-light negative-ls-1"
 									data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -191,7 +191,7 @@
 					<div class="container custom-container-absolute-centered-x">
 						<div class="row justify-content-end">
 							<div class="col-auto position-relative">
-								<img src="/pub/img/demos/industry-factory/hero-1.jpg" class="img-fluid box-shadow-4 position-relative bottom-10 right-0 d-none d-sm-block appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="500" alt="" />
+								<img src="{{ URL::to('/') }}/pub/img/demos/industry-factory/hero-1.jpg" class="img-fluid box-shadow-4 position-relative bottom-10 right-0 d-none d-sm-block appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="500" alt="" />
 							</div>
 						</div>
 					</div>
@@ -218,7 +218,7 @@ Industri Besar Indonesia</p>
 									</a>
 									<div class="custom-hero-sub-images-style-1 text-left">
 										<div class="custom-hero-sub-images-shadow"></div>
-										<img src="/pub/img/demos/industry-factory/hero-2.jpg" class="img-fluid appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="700" alt="" />
+										<img src="{{ URL::to('/') }}/pub/img/demos/industry-factory/hero-2.jpg" class="img-fluid appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="700" alt="" />
 									</div>
 									<div class="spacer py-2"></div>
 								</div>
@@ -277,10 +277,10 @@ Kami telah melayani konsumen dalam negeri dan luar negeri sebagai supplier utama
 										<a href="demo-industry-factory-services-detail.html" class="text-decoration-none">
 											<div class="thumb-info custom-thumb-info-style-1 mb-3" style="background-image:url();">
 												<div class="thumb-info-wrapper">
-													<img src="/pub/img/demos/industry-factory/icons/blister.png" class="img-fluid" alt="" />
+													<img src="{{ URL::to('/') }}/pub/img/demos/industry-factory/icons/blister.png" class="img-fluid" alt="" />
 												</div>
 												<div class="thumb-info-wrapper">
-													<img src="/pub/img/demos/industry-factory/categories/category-1.jpg" class="img-fluid" alt="" />
+													<img src="{{ URL::to('/') }}/pub/img/demos/industry-factory/categories/category-1.jpg" class="img-fluid" alt="" />
 												</div>
 											</div>
 										</a>
@@ -290,10 +290,10 @@ Kami telah melayani konsumen dalam negeri dan luar negeri sebagai supplier utama
 										<a href="demo-industry-factory-services-detail.html" class="text-decoration-none">
 											<div class="thumb-info custom-thumb-info-style-1 mb-3">
 											<div class="thumb-info-wrapper">
-													<img src="/pub/img/demos/industry-factory/icons/tray.png" class="img-fluid" alt="" />
+													<img src="{{ URL::to('/') }}/pub/img/demos/industry-factory/icons/tray.png" class="img-fluid" alt="" />
 												</div>
 												<div class="thumb-info-wrapper">
-													<img src="/pub/img/demos/industry-factory/categories/category-2.jpg" class="img-fluid" alt="" />
+													<img src="{{ URL::to('/') }}/pub/img/demos/industry-factory/categories/category-2.jpg" class="img-fluid" alt="" />
 												</div>
 											</div>
 										</a>
@@ -303,10 +303,10 @@ Kami telah melayani konsumen dalam negeri dan luar negeri sebagai supplier utama
 										<a href="demo-industry-factory-services-detail.html" class="text-decoration-none">
 											<div class="thumb-info custom-thumb-info-style-1 mb-3">
 											<div class="thumb-info-wrapper">
-													<img src="/pub/img/demos/industry-factory/icons/cup-bowl.png" class="img-fluid" alt="" />
+													<img src="{{ URL::to('/') }}/pub/img/demos/industry-factory/icons/cup-bowl.png" class="img-fluid" alt="" />
 												</div>
 												<div class="thumb-info-wrapper">
-													<img src="/pub/img/demos/industry-factory/categories/category-3.jpg" class="img-fluid" alt="" />
+													<img src="{{ URL::to('/') }}/pub/img/demos/industry-factory/categories/category-3.jpg" class="img-fluid" alt="" />
 												</div>
 											</div>
 										</a>
@@ -316,10 +316,10 @@ Kami telah melayani konsumen dalam negeri dan luar negeri sebagai supplier utama
 										<a href="demo-industry-factory-services-detail.html" class="text-decoration-none">
 											<div class="thumb-info custom-thumb-info-style-1 mb-3">
 											<div class="thumb-info-wrapper">
-													<img src="/pub/img/demos/industry-factory/icons/lid.png" class="img-fluid" alt="" />
+													<img src="{{ URL::to('/') }}/pub/img/demos/industry-factory/icons/lid.png" class="img-fluid" alt="" />
 												</div>
 												<div class="thumb-info-wrapper">
-													<img src="/pub/img/demos/industry-factory/categories/category-4.jpg" class="img-fluid" alt="" />
+													<img src="{{ URL::to('/') }}/pub/img/demos/industry-factory/categories/category-4.jpg" class="img-fluid" alt="" />
 												</div>
 											</div>
 										</a>
@@ -329,10 +329,10 @@ Kami telah melayani konsumen dalam negeri dan luar negeri sebagai supplier utama
 										<a href="demo-industry-factory-services-detail.html" class="text-decoration-none">
 											<div class="thumb-info custom-thumb-info-style-1 mb-3">
 											<div class="thumb-info-wrapper">
-													<img src="/pub/img/demos/industry-factory/icons/bottle-jar.png" class="img-fluid" alt="" />
+													<img src="{{ URL::to('/') }}/pub/img/demos/industry-factory/icons/bottle-jar.png" class="img-fluid" alt="" />
 												</div>
 												<div class="thumb-info-wrapper">
-													<img src="/pub/img/demos/industry-factory/categories/category-5.jpg" class="img-fluid" alt="" />
+													<img src="{{ URL::to('/') }}/pub/img/demos/industry-factory/categories/category-5.jpg" class="img-fluid" alt="" />
 												</div>
 											</div>
 										</a>
@@ -472,7 +472,7 @@ Kami telah melayani konsumen dalam negeri dan luar negeri sebagai supplier utama
 											</blockquote>
 											<div class="testimonial-author">
 												<div class="testimonial-author-thumbnail">
-													<img src="img/demos/industry-factory/testimonials/author-1.jpg" class="img-fluid rounded-circle" alt="">
+													<img src="{{ URL::to('/') }}/pub/img/demos/industry-factory/testimonials/author-1.jpg" class="img-fluid rounded-circle" alt="">
 												</div>
 												<p class="ml-3"><strong class="font-weight-semibold text-color-dark text-4" style="color:white;">John Smith</strong><span class="text-1" style="color:white;">CLIMB THE MOUNTAIN</span></p>
 											</div>
@@ -516,9 +516,9 @@ Kami telah melayani konsumen dalam negeri dan luar negeri sebagai supplier utama
 							<div class="featured-boxes featured-boxes-modern-style-1 box-shadow-3">
 								<div class="featured-box custom-featured-box-with-video">
 									<video class="custom-featured-box-video" controls preload="true">
-									  	<source src="/pub/video/demo-industry-1.mp4" type="video/mp4">
+									  	<source src="{{ URL::to('/') }}/pub/video/demo-industry-1.mp4" type="video/mp4">
 									</video>
-									<div class="featured-box-background" style="background-image: url(/pub/video/demo-industry-1.jpg); background-size: cover; background-position: center;"></div>
+									<div class="featured-box-background" style="background-image: url({{ URL::to('/') }}/pub/video/demo-industry-1.jpg); background-size: cover; background-position: center;"></div>
 									<div class="box-content">
 										<a class="custom-trigger-play-video text-decoration-none d-block" href="#">
 											<i class="fas fa-play featured-icon featured-icon-style-2 featured-icon-hover-effect-1 text-4 bg-transparent rounded-circle border border-width-10 border-color-light right-4 top-0 m-0"></i>
@@ -568,7 +568,7 @@ Kami telah melayani konsumen dalam negeri dan luar negeri sebagai supplier utama
 									<div class="card border-0 border-radius-0 box-shadow-1">
 										<div class="card-body p-4 z-index-1">
 											<a href="demo-industry-factory-blog-post.html">
-												<img class="card-img-top border-radius-0" src="/pub/img/sertifikat1.png" alt="Card Image">
+												<img class="card-img-top border-radius-0" src="{{ URL::to('/') }}/pub/img/sertifikat1.png" alt="Card Image">
 											</a>
 											<p class="text-uppercase text-1 mb-3 pt-1 text-color-default">
 												<time pubdate datetime="2020-01-10">10 Jan 2020</time> 
