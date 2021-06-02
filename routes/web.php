@@ -15,5 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () { return view('home');  });
 Route::get('/about', [\App\Http\Controllers\PageController::class, 'home_about']);
+Route::get('/product', [\App\Http\Controllers\PageController::class, 'home_product']);
+
 
 

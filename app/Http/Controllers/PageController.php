@@ -10,5 +10,10 @@ class PageController extends Controller
         return view("about");
     }
 
+    public function home_product() {
+        return view("product");
+    }
+
+
 
 }

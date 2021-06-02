@@ -118,7 +118,7 @@
 													<li><a href="/about" class="nav-link">About Us</a></li>
 													<li><a href="demo-industry-factory-services.html" class="nav-link">Services</a></li>
 													<li><a href="demo-industry-factory-blog.html" class="nav-link">Blog</a></li>
-													<li><a href="demo-industry-factory-products.html" class="nav-link">Products</a></li>
+													<li><a href="/product" class="nav-link">Products</a></li>
 													<li><a href="demo-industry-factory-contact.html" class="nav-link">Contact</a></li>
 												</ul>
 											</nav>
