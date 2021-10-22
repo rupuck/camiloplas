@@ -47,7 +47,7 @@
 									data-transform_in="x:[-300%];opacity:0;s:500;"
 									data-transform_idle="opacity:0.2;s:500;"><img src="{{ URL::to('/') }}/pub/img/slides/slide-title-border.png" alt=""></div>
 
-								<div class="tp-caption text-color-light font-weight-normal"
+								<div class="tp-caption text-color-dark font-weight-normal"
 									data-x="center"
 									data-y="center" data-voffset="['-50','-50','-50','-75']"
 									data-start="700"
@@ -67,20 +67,20 @@
 									data-transform_in="x:[300%];opacity:0;s:500;"
 									data-transform_idle="opacity:0.2;s:500;"><img src="{{ URL::to('/') }}/pub/img/slides/slide-title-border.png" alt=""></div>
 
-								<div class="tp-caption font-weight-extra-bold text-color-light negative-ls-2"
+								<div class="tp-caption font-weight-extra-bold text-color-dark negative-ls-2"
 									data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="center"
 									data-y="center"
 									data-fontsize="['50','50','50','90']"
 									data-lineheight="['55','55','55','95']">Camiloplas Manufacturing</div>
 
-								<div class="tp-caption font-weight-light"
+								<div class="tp-caption font-weight-dark"
 									data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":2000,"split":"chars","splitdelay":0.05,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
 									data-x="center"
 									data-y="center" data-voffset="['40','40','40','80']"
 									data-fontsize="['18','18','18','50']"
 									data-lineheight="['20','20','20','55']"
-									style="color: #b5b5b5;">The Best Manufacturing Solution for Your F&B Business</div>
+									style="color: black;">The Best Manufacturing Solution for Your F&B Business</div>
 
 							</li>
 							<li class="slide-overlay" data-transition="fade">
@@ -145,7 +145,7 @@
 									data-transform_in="x:[-300%];opacity:0;s:500;"
 									data-transform_idle="opacity:0.2;s:500;"><img src="{{ URL::to('/') }}/pub/img/slides/slide-title-border.png" alt=""></div>
 
-								<div class="tp-caption text-color-light font-weight-normal"
+								<div class="tp-caption text-color-dark font-weight-normal"
 									data-x="center"
 									data-y="center" data-voffset="['-80','-80','-80','-130']"
 									data-start="700"
@@ -160,7 +160,7 @@
 									data-transform_in="x:[300%];opacity:0;s:500;"
 									data-transform_idle="opacity:0.2;s:500;"><img src="{{ URL::to('/') }}/pub/img/slides/slide-title-border.png" alt=""></div>
 
-									<div class="tp-caption font-weight-extra-bold text-color-light negative-ls-1"
+									<div class="tp-caption font-weight-extra-bold text-color-dark negative-ls-1"
 									data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="center"
 									data-y="center"
@@ -168,7 +168,7 @@
 									data-lineheight="['55','55','55','95']">CAMILOPLAS</div>
 
 								
-								<div class="tp-caption font-weight-light text-color-light"
+								<div class="tp-caption font-weight-light text-color-dark"
 									data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":2300,"split":"chars","splitdelay":0.05,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
 									data-x="center"
 									data-y="center" data-voffset="['85','85','85','140']"
@@ -201,20 +201,20 @@
 								<div class="position-relative bg-color-grey p-5">
 									<div class="spacer my-5 py-2 d-none d-sm-block"></div>
 									<div class="overflow-hidden pt-sm-5 mt-sm-5">
-										<h1 class="font-weight-semibold text-10 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="300">PT CAMILOPLAS JAYA MAKMUR</h1>
+										<h1 class="font-weight-semibold text-5 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="300">PT CAMILOPLAS JAYA MAKMUR</h1>
 									</div>
 									<div class="overflow-hidden mb-3">
-										<h2 class="font-weight-semibold text-10 line-height-2 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="500">
+										<h2 class="font-weight-semibold text-6 line-height-2 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="500">
 											<strong class="font-weight-extra-bold custom-font-size-2">Plastic Manufacturer</strong>
 										</h2>
 									</div>
 									<p class="custom-font-size-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">Pabrik Plastik Terbaik yang telah melayani
 Industri Besar Indonesia</p>
-									<a href="#" class="btn custom-svg-btn-style-1 text-color-hover-primary mb-sm-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
+									<a href="/about" class="btn custom-svg-btn-style-1 text-color-hover-primary mb-sm-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
 										<svg class="custom-svg-btn-background" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 210 70" preserveAspectRatio="none">
 											<polygon fill="none" stroke="#D4D4D4" stroke-width="2" stroke-miterlimit="10" points="7,5 185,5 205,34 186,63 7,63 "/>
 										</svg>
-										GET STARTED
+										<t style="color:black" >GET STARTED </t>
 									</a>
 									<div class="custom-hero-sub-images-style-1 text-left">
 										<div class="custom-hero-sub-images-shadow"></div>
@@ -231,7 +231,7 @@ Industri Besar Indonesia</p>
 					<div class="row">
 						<div class="col-lg-6">
 							<div class="overflow-hidden mb-2">
-								<h2 class="font-weight-bold text-11 line-height-2 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">The Highest Quality</h2>
+								<h2 class="font-weight-bold text-8 line-height-2 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">The Highest Quality</h2>
 							</div>
 							<div class="overflow-hidden mb-3">
 								<h3 class="text-color-primary font-weight-medium positive-ls-3 text-4 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="400">THE BEST PLASTIC MANUFACTURING</h3>
@@ -242,7 +242,7 @@ Industri Besar Indonesia</p>
 							<p class="pt-3 pb-1 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="450">Camiloplas sudah berdiri selama 20 tahun dalam bidang manufakturing plackaging plastik dan sudah memiliki sertifikasi internasional dan nasional. Kami sudah memiliki sertifikasi internasional dan nasional (ISO).
 …
 Kami telah melayani konsumen dalam negeri dan luar negeri sebagai supplier utama mereka</p>
-							<a href="#" class="custom-read-more btn btn-link d-inline-flex align-items-center font-weight-semibold text-decoration-none pl-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="650">
+							<a href="/about" class="custom-read-more btn btn-link d-inline-flex align-items-center font-weight-semibold text-decoration-none pl-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="650">
 								READ MORE 
 								<svg class="ml-2" version="1.1" viewBox="0 0 15.698 8.706" width="17" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 									<polygon stroke="#FFF" stroke-width="0.1" fill="#FFF" points="11.354,0 10.646,0.706 13.786,3.853 0,3.853 0,4.853 13.786,4.853 10.646,8 11.354,8.706 15.698,4.353 "/>
@@ -267,7 +267,7 @@ Kami telah melayani konsumen dalam negeri dan luar negeri sebagai supplier utama
 								<div class="overflow-hidden mb-3">
 									<h3 class="font-weight-bold text-transform-none text-9 line-height-2 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="400" style="color:white;">A Selection Of Procedures We Serve</h3>
 								</div>
-								<p class="custom-font-secondary custom-font-size-1 line-height-7 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600" style="color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur.</p>
+								<p class="custom-font-secondary custom-font-size-1 line-height-7 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600" style="color:white;">Berikut ini merupakan berbagai jenis produk yang kami sediakan.</p>
 							</div>
 						</div>
 						<div class="row">
@@ -400,7 +400,7 @@ Kami telah melayani konsumen dalam negeri dan luar negeri sebagai supplier utama
 							<div class="overflow-hidden mb-3">
 								<h3 class="font-weight-bold text-transform-none text-9 line-height-2 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="400">Top Working Process</h3>
 							</div>
-							<p class="custom-font-secondary custom-font-size-1 line-height-7 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur.</p>
+							<!-- <p class="custom-font-secondary custom-font-size-1 line-height-7 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur.</p> -->
 						</div>
 					</div>
 					<div class="row">
@@ -439,92 +439,12 @@ Kami telah melayani konsumen dalam negeri dan luar negeri sebagai supplier utama
 					</div>
 				</div>
 
-				<section class="section section-with-shape-divider border-0 m-0" style="background-color:#1e73be">
-					<div class="shape-divider shape-divider-reverse-x" style="height: 120px;">
-						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2000 120" preserveAspectRatio="xMinYMin">
-							<polygon fill="#FFF" points="-11,2 693,112 2019,6 2019,135 -11,135 "/>
-						</svg>
-					</div>
-					<div class="shape-divider shape-divider-bottom shape-divider-reverse-y" style="height: 120px;">
-						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2000 120" preserveAspectRatio="xMinYMin">
-							<polygon fill="#FFF" points="-11,2 693,112 2019,6 2019,135 -11,135 "/>
-						</svg>
-					</div>
-					<div class="container py-5 my-5" >
-						<div class="row mb-5">
-							<div class="col">
-								<div class="overflow-hidden">
-									<h2 class="text-color-primary font-weight-medium positive-ls-3 text-4 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">TESTIMONIALS</h2>
-								</div>
-								<div class="overflow-hidden mb-3">
-									<h3 class="font-weight-bold text-transform-none text-9 line-height-2 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="400">Hear From Some Previous Clients</h3>
-								</div>
-								<p class="custom-font-secondary custom-font-size-1 line-height-7 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600" style="color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod.</p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col">
-								<div class="owl-carousel nav-style-1 nav-svg-arrows-1 nav-dark appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750" data-plugin-options="{'responsive': {'0': {'items': 1}, '476': {'items': 2}, '768': {'items': 2}, '992': {'items': 2}, '1200': {'items': 2}}, 'autoplay': true, 'autoplayTimeout': 5000, 'autoplayHoverPause': true, 'dots': false, 'nav': true, 'loop': true, 'margin': 60, 'stagePadding': 50}">
-									<div>
-										<div class="custom-testimonial-style-1 testimonial testimonial-style-3">
-											<blockquote>
-												<p class="mb-0" style="color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at, interdum torr. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-											</blockquote>
-											<div class="testimonial-author">
-												<div class="testimonial-author-thumbnail">
-													<img src="{{ URL::to('/') }}/pub/img/demos/industry-factory/testimonials/author-1.jpg" class="img-fluid rounded-circle" alt="">
-												</div>
-												<p class="ml-3"><strong class="font-weight-semibold text-color-dark text-4" style="color:white;">John Smith</strong><span class="text-1" style="color:white;">CLIMB THE MOUNTAIN</span></p>
-											</div>
-										</div>
-									</div>
-									<div>
-										<div class="custom-testimonial-style-1 testimonial testimonial-style-3">
-											<blockquote>
-												<p class="mb-0" style="color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at, interdum torr. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-											</blockquote>
-											<div class="testimonial-author">
-												<div class="testimonial-author-thumbnail">
-													<img src="img/demos/industry-factory/testimonials/author-2.jpg" class="img-fluid rounded-circle" alt="">
-												</div>
-												<p class="ml-3"><strong class="font-weight-semibold text-color-dark text-4" >John Doe</strong><span class="text-1" style="color:white;">AVANT GARDEN</span></p>
-											</div>
-										</div>
-									</div>
-									<div>
-										<div class="custom-testimonial-style-1 testimonial testimonial-style-3">
-											<blockquote>
-												<p class="mb-0" style="color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at, interdum torr. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-											</blockquote>
-											<div class="testimonial-author">
-												<div class="testimonial-author-thumbnail">
-													<img src="img/demos/industry-factory/testimonials/author-1.jpg" class="img-fluid rounded-circle" alt="">
-												</div>
-												<p class="ml-3"><strong class="font-weight-semibold text-color-dark text-4">Robert Doe</strong><span class="text-1" style="color:white;">OKLER THEMES</span></p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-
+			
 				<div class="container py-5 my-4">
 					<div class="row align-items-center">
 						<div class="col-lg-6 pr-lg-5 mb-4 mb-lg-0">
 							<div class="featured-boxes featured-boxes-modern-style-1 box-shadow-3">
-								<div class="featured-box custom-featured-box-with-video">
-									<video class="custom-featured-box-video" controls preload="true">
-									  	<source src="{{ URL::to('/') }}/pub/video/demo-industry-1.mp4" type="video/mp4">
-									</video>
-									<div class="featured-box-background" style="background-image: url({{ URL::to('/') }}/pub/video/demo-industry-1.jpg); background-size: cover; background-position: center;"></div>
-									<div class="box-content">
-										<a class="custom-trigger-play-video text-decoration-none d-block" href="#">
-											<i class="fas fa-play featured-icon featured-icon-style-2 featured-icon-hover-effect-1 text-4 bg-transparent rounded-circle border border-width-10 border-color-light right-4 top-0 m-0"></i>
-										</a>
-									</div>
-								</div>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/1Gz77Mb_VFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</div>
 						</div>
 						<div class="col-lg-6">
@@ -534,8 +454,9 @@ Kami telah melayani konsumen dalam negeri dan luar negeri sebagai supplier utama
 							<div class="overflow-hidden mb-3">
 								<h3 class="font-weight-bold text-transform-none text-9 line-height-2 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="400">Our Facilities</h3>
 							</div>
-							<p class="custom-font-secondary custom-font-size-1 line-height-7 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod.</p>
-							<p class="mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur. Vestibulum auctor felis eget orci semper vestibulum. Pellentesque ultricies nibh gravida, accumsan libero luctus, molestie nunc. In nibh ipsum, blandit id faucibus ac, finibus vitae dui.</p>
+							<p class="custom-font-secondary custom-font-size-1 line-height-7 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">Camiloplas membuat berbagai macam produk plastik seperti polystyrene, PET, PVC, dan lainnya.
+</p>
+							<!-- <p class="mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur. Vestibulum auctor felis eget orci semper vestibulum. Pellentesque ultricies nibh gravida, accumsan libero luctus, molestie nunc. In nibh ipsum, blandit id faucibus ac, finibus vitae dui.</p> -->
 						</div>
 					</div>
 				</div>
@@ -578,14 +499,14 @@ Kami telah melayani konsumen dalam negeri dan luar negeri sebagai supplier utama
 												John Doe
 											</p>
 											<div class="card-body p-0">
-												<h4 class="card-title mb-3 text-5 font-weight-semibold"><a class="text-color-dark text-color-hover-primary text-decoration-none" href="demo-industry-factory-blog-post.html">Food Safety System Certification 22000</a></h4>
-												<p class="card-text mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra lorem ipsum erat orci, ac auctor lacus tincidunt ut...</p>
-												<a href="demo-industry-factory-blog-post.html" class="custom-read-more btn btn-link d-inline-flex align-items-center font-weight-semibold text-decoration-none pl-0">
+												<h4 class="card-title mb-3 text-5 font-weight-semibold"><a class="text-color-dark text-color-hover-primary text-decoration-none" >Food Safety System Certification 22000</a></h4>
+												<!-- <p class="card-text mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra lorem ipsum erat orci, ac auctor lacus tincidunt ut...</p> -->
+												<!-- <a href="demo-industry-factory-blog-post.html" class="custom-read-more btn btn-link d-inline-flex align-items-center font-weight-semibold text-decoration-none pl-0">
 													READ MORE 
 													<svg class="ml-2" version="1.1" viewBox="0 0 15.698 8.706" width="17" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 														<polygon stroke="#FFF" stroke-width="0.1" fill="#FFF" points="11.354,0 10.646,0.706 13.786,3.853 0,3.853 0,4.853 13.786,4.853 10.646,8 11.354,8.706 15.698,4.353 "/>
 													</svg>
-												</a>
+												</a> -->
 											</div>
 										</div>
 									</div>
@@ -606,14 +527,14 @@ Kami telah melayani konsumen dalam negeri dan luar negeri sebagai supplier utama
 												John Doe
 											</p>
 											<div class="card-body p-0">
-												<h4 class="card-title mb-3 text-5 font-weight-semibold"><a class="text-color-dark text-color-hover-primary text-decoration-none" href="demo-industry-factory-blog-post.html">Design, Development, and Manufacture of Vacuum and Thermoforming Plastic for Food Industry</a></h4>
-												<p class="card-text mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra lorem ipsum erat orci, ac auctor lacus tincidunt ut...</p>
+												<h4 class="card-title mb-3 text-5 font-weight-semibold"><a class="text-color-dark text-color-hover-primary text-decoration-none">Design, Development, and Manufacture of Vacuum and Thermoforming Plastic for Food Industry</a></h4>
+												<!-- <p class="card-text mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra lorem ipsum erat orci, ac auctor lacus tincidunt ut...</p>
 												<a href="demo-industry-factory-blog-post.html" class="custom-read-more btn btn-link d-inline-flex align-items-center font-weight-semibold text-decoration-none pl-0">
 													READ MORE 
 													<svg class="ml-2" version="1.1" viewBox="0 0 15.698 8.706" width="17" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 														<polygon stroke="#FFF" stroke-width="0.1" fill="#FFF" points="11.354,0 10.646,0.706 13.786,3.853 0,3.853 0,4.853 13.786,4.853 10.646,8 11.354,8.706 15.698,4.353 "/>
 													</svg>
-												</a>
+												</a> -->
 											</div>
 										</div>
 									</div>
@@ -713,7 +634,7 @@ Kami telah melayani konsumen dalam negeri dan luar negeri sebagai supplier utama
 											<svg class="custom-svg-btn-background" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 210 70" preserveAspectRatio="none">
 												<polygon fill="none" stroke="#D4D4D4" stroke-width="2" stroke-miterlimit="10" points="7,5 185,5 205,34 186,63 7,63 "/>
 											</svg>
-											Send Message
+										<t style="color:black;">	Send Message</t>
 										</button>
 									</div>
 								</div>

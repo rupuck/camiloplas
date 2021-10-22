@@ -2,6 +2,7 @@
 <html>
 	<head>
 
+	
 		<!-- Basic -->
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
@@ -57,6 +58,11 @@
 		<script src="{{ URL::to('/') }}/pub/vendor/modernizr/modernizr.min.js"></script>
 
 	</head>
+	<style>
+		body {
+  font-size: 90%;
+		}
+	</style>
 	<body>
 		<div class="body">
 			<header id="header" class="header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
@@ -68,7 +74,7 @@
 									<div class="header-row">
 										<ul class="list list-unstyled list-inline mb-0">
 											<li class="list-inline-item text-color-dark mr-4 mb-0">
-												Customer Services: <a href="tel:+1234567890" class="text-color-dark text-color-hover-primary text-decoration-none"><strong>087-7821-2921</strong></a>
+												Customer Services: <a href="tel:+1234567890" class="text-color-dark text-color-hover-primary text-decoration-none"><strong>0878-7821-2921</strong></a>
 											</li>
 											<li class="list-inline-item text-color-dark d-none d-sm-inline-block mb-0">
 												<!-- Services: <a href="tel:+1234567890" class="text-color-dark text-color-hover-primary text-decoration-none"><strong>123-456-789</strong></a> -->
@@ -77,19 +83,19 @@
 									</div>
 								</div>
 								<div class="header-column justify-content-end">
-									<div class="header-row">
+									<div class="header-row" style="color:black;">
 										<ul class="header-social-icons social-icons social-icons-clean d-none d-md-block">
 											<li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
 											<li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
 											<li class="social-icons-instagram"><a href="http://www.instagram.com/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
 										</ul>
-										<a href="#" class="btn custom-svg-btn-style-1 custom-svg-btn-style-1-solid custom-svg-btn-style-1-small text-color-light ml-4">
+										<a  href="#" class="btn custom-svg-btn-style-1 custom-svg-btn-style-1-solid custom-svg-btn-style-1-small text-color-light ml-4">
 											<svg class="custom-svg-btn-background" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 210 70" preserveAspectRatio="none">
 												<polygon fill="none" stroke="#D4D4D4" stroke-width="2" stroke-miterlimit="10" points="7,5 185,5 205,34 186,63 7,63 "/>
 											</svg>
-											Hubungi Kami
-											<svg class="custom-svg-btn-arrow" version="1.1" viewBox="0 0 15.698 8.706" width="17" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-												<polygon stroke="#FFF" stroke-width="0.4" fill="#FFF" points="11.354,0 10.646,0.706 13.786,3.853 0,3.853 0,4.853 13.786,4.853 10.646,8 11.354,8.706 15.698,4.353 "/>
+											<t style="color:black;">Hubungi Kami</t>
+											<svg style="color:black;" class="custom-svg-btn-arrow" version="1.1" viewBox="0 0 15.698 8.706" width="17" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+												<polygon stroke="black" stroke-width="0.4" fill="#FFF" points="11.354,0 10.646,0.706 13.786,3.853 0,3.853 0,4.853 13.786,4.853 10.646,8 11.354,8.706 15.698,4.353 "/>
 											</svg>
 										</a>
 									</div>
@@ -116,15 +122,18 @@
 												<ul class="nav nav-pills" id="mainNav">
 													<li><a href="/" class="nav-link active">Home</a></li>
 													<li><a href="/about" class="nav-link">About Us</a></li>
-													<li><a href="demo-industry-factory-services.html" class="nav-link">Services</a></li>
-													<li><a href="demo-industry-factory-blog.html" class="nav-link">Blog</a></li>
 													<li><a href="/product" class="nav-link">Products</a></li>
-													<li><a href="demo-industry-factory-contact.html" class="nav-link">Contact</a></li>
+													<li><a href="/contact" class="nav-link">Contact</a></li>
+													<li><a href="/career" class="nav-link">Career</a></li>
+
 												</ul>
 											</nav>
 										</div>
 									</div>
-									<div class="header-nav-features">
+									<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
+										<i class="fas fa-bars"></i>
+									</button>
+									<!-- <div class="header-nav-features">
 										<div class="header-nav-feature header-nav-features-search d-inline-flex">
 											<a href="#" class="header-nav-features-toggle text-decoration-none" data-focus="headerSearch">
 												<i class="icons icon-magnifier header-nav-top-icon font-weight-bold text-4 top-2 text-color-hover-primary"></i>
@@ -145,7 +154,7 @@
 									</div>
 									<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
 										<i class="fas fa-bars"></i>
-									</button>
+									</button> -->
 								</div>
 							</div>
 						</div>
@@ -181,24 +190,21 @@
 							<div class="row">
 								<div class="col-md-6">
 									<ul class="list list-unstyled mb-0">
-										<li class="mb-0"><a href="#">Contact Us</a></li>
-										<li class="mb-0"><a href="#">Our Services</a></li>
-										<li class="mb-0"><a href="#">Payment Methods</a></li>
-										<li class="mb-0"><a href="#">Services Guide</a></li>
-										<li class="mb-0"><a href="#">FAQs</a></li>
-										<li class="mb-0"><a href="#">Service Support</a></li>
-										<li class="mb-0"><a href="#">Privacy</a></li>
-										<li class="mb-0"><a href="#">About Camiloplas</a></li>
-										<li class="mb-0"><a href="#">Our Guarantees</a></li>
-										<li class="mb-0"><a href="#">Terms And Conditions</a></li>
+										<li class="mb-0"><a href="/">Home</a></li>
+										<li class="mb-0"><a href="/about">About Us</a></li>
+										<li class="mb-0"><a href="/product">Our Products</a></li>
+										<li class="mb-0"><a href="/contact">Contact Us</a></li>
+										<li class="mb-0"><a href="/career">Join Our Team</a></li>
+				
 									</ul>
 								</div>
+
 								<div class="col-md-6">
 									<ul class="list list-unstyled mb-0">
-										<li class="mb-0"><a href="#">Privacy Policy</a></li>
-										<li class="mb-0"><a href="#">Return Policy</a></li>
-										<li class="mb-0"><a href="#">Intellectual Property Claims</a></li>
-										<li class="mb-0"><a href="#">Sitemap</a></li>
+										<li class="mb-0">Career</li>
+										<li class="mb-0">infocareer@camiloplas.com</li>
+										<li class="mb-0">Contact Us</li>
+										<li class="mb-0">info@camiloplas.com</li>
 									</ul>
 								</div>
 							</div>
@@ -206,8 +212,7 @@
 						<div class="col-lg-3 offset-lg-1 mb-5 mb-lg-0">
 							<h4 class="text-color-light font-weght-bold positive-ls-2 custom-font-size-2">OPENING HOURS</h4>
 							<ul class="list list-unstyled list-inline custom-list-style-1 mb-0">
-								<li><a href="#">Mon - Fri: 8:30 am to 5:00 pm</a></li>
-								<li><a href="#">Saturday: 9:30 am to 1:00 pm</a></li>
+								<li><a href="#">Mon - Saturday: 8:00 am to 5:00 pm</a></li>
 								<li><a href="#">Sunday: Closed</a></li>
 							</ul>
 						</div>
@@ -283,6 +288,6 @@
 		</script>
 		 -->
 
-         @yield("scripts")
+         @yield('scripts')
 	</body>
 </html>

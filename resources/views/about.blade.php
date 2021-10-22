@@ -1,7 +1,7 @@
 @extends("layout")
 
 @section("content")
-				<section class="page-header page-header-modern page-header-background page-header-background-sm m-0" style="background-image: url({{ URL::to('/') }}/pub/img/demos/industry-factory/backgrounds/background-2.jpg); background-size: cover; background-position: center;">
+				<section class="page-header page-header-modern page-header-background page-header-background-sm m-0" style="background-image: url({{ URL::to('/') }}/pub/img/aboutus/background-2.jpg); background-size: cover; background-position: center;">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-8 order-2 order-md-1 align-self-center p-static">
@@ -21,13 +21,13 @@
 					<div class="container position-relative z-index-3 my-5">
 						<div class="row align-items-center justify-content-center">
 							<div class="col-lg-6 pr-lg-5 mb-4 mb-lg-0">
-								<img src="{{ URL::to('/') }}/pub/img/demos/industry-factory/generic/generic-2.jpg" class="img-fluid box-shadow-3 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200" alt="" />
+								<img src="{{ URL::to('/') }}/pub/img/aboutus/generic-2.jpg" class="img-fluid box-shadow-3 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200" alt="" />
 							</div>
 							<div class="col-lg-6 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="500">
-								<h2 class="text-color-primary font-weight-medium positive-ls-3 text-4 mb-0">PORTO CORPORATION</h2>
+								<h2 class="text-color-primary font-weight-medium positive-ls-3 text-4 mb-0">PT Camiloplas Jaya Makmur</h2>
 								<h3 class="font-weight-bold text-transform-none text-9 line-height-2 mb-3">Company Overview</h3>
-								<p class="custom-font-secondary custom-font-size-1 line-height-7 pb-2 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod.</p>
-								<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur. Vestibulum auctor felis eget orci semper vestibulum. Pellentesque ultricies nibh gravida, accumsan libero luctus, molestie nunc. In nibh ipsum, blandit id faucibus ac, finibus vitae dui.</p>
+								<p class="custom-font-secondary custom-font-size-1 line-height-7 pb-2 mb-4">Camiloplas sudah berdiri selama 20 tahun dalam bidang manufakturing plackaging plastik dan sudah memiliki sertifikasi internasional dan nasional. Kami sudah memiliki sertifikasi internasional dan nasional (ISO).
+Kami telah melayani konsumen dalam negeri dan luar negeri sebagai supplier utama mereka</p>
 							</div>
 						</div>
 					</div>
@@ -37,116 +37,108 @@
 					<div class="container position-relative z-index-3 my-5">
 						<div class="row align-items-center justify-content-center">
 							<div class="col-lg-6 order-2 order-lg-1 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="200">
-								<h2 class="text-color-primary font-weight-medium positive-ls-3 text-4 mb-0">OUR VALUES</h2>
-								<h3 class="font-weight-bold text-transform-none text-9 line-height-2 mb-3">Our Mission</h3>
-								<p class="custom-font-secondary custom-font-size-1 line-height-7 pb-2 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod.</p>
-								<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur. Vestibulum auctor felis eget orci semper vestibulum. Pellentesque ultricies nibh gravida, accumsan libero luctus, molestie nunc. In nibh ipsum, blandit id faucibus ac, finibus vitae dui.</p>
+								<h2 class="text-color-primary font-weight-medium positive-ls-3 text-4 mb-0">OUR COMPANY PROFILE</h2>
+								<h3 class="font-weight-bold text-transform-none text-9 line-height-2 mb-3">Our Vision</h3>
+								<p class="custom-font-secondary custom-font-size-1 line-height-7 pb-2 mb-4">”To be the best manufacturer that act as a solution to F&B businesses all around the globe”
+
+</p>
+<h3 class="font-weight-bold text-transform-none text-9 line-height-2 mb-3">Our Mission</h3>
+
+								<p class="mb-0"><ul><li>To become the manufacturer with highest quality and customer satisfaction-</li>
+								<li>Continue to innovate in providing solution for F&B packaging</li>
+								<li>To become the platform for the employee to perform in their best interest and skill</li>
+								<li>Continue to grow and expand along with the technology to perform the best practice in food and beverages packaging</li>
+</ul>
+
+<h3 class="font-weight-bold text-transform-none text-9 line-height-2 mb-3">Our Values</h3>
+
+								<p class="mb-0"><ul><li>Loyalty</li>
+								<li>Teamwork</li>
+								<li>Awareness</li>
+								<li>Grateful</li>
+								<li>Communication</li>
+</ul>
+					
+
+								</p>
 							</div>
 							<div class="col-lg-6 order-1 order-lg-2 pl-lg-5 mb-4 mb-lg-0">
-								<img src="{{ URL::to('/') }}/pub/img/demos/industry-factory/generic/generic-1.jpg" class="img-fluid box-shadow-3 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="500" alt="" />
+
+								<img src="{{ URL::to('/') }}/pub/img/aboutus/generic-1.jpg" class="img-fluid box-shadow-3 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="500" alt="" />
 							</div>
 						</div>
 					</div>
 				</section>
 
 				<section class="section bg-light border-0 z-index-2 pb-0 m-0">
-					<div class="container pt-3 mt-5">
-						<div class="row justify-content-center mb-5">
-							<div class="col-lg-9 col-xl-8 text-center">
-								<div class="overflow-hidden">
-									<h2 class="text-color-primary font-weight-medium positive-ls-3 text-4 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">WHAT WE DO</h2>
-								</div>
-								<div class="overflow-hidden mb-3">
-									<h3 class="font-weight-bold text-transform-none text-9 line-height-2 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="400">A Selection Of Industries We Serve</h3>
-								</div>
-								<p class="custom-font-secondary custom-font-size-1 line-height-7 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur.</p>
+				<div class="container pt-2">
+					<div class="row justify-content-center pt-4 mt-5">
+						<div class="col-lg-8 text-center">
+							<div class="overflow-hidden">
+								<h2 class="text-color-primary font-weight-medium positive-ls-3 text-4 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">HOW WE WORK</h2>
 							</div>
-						</div>
-						<div class="row pb-5 mb-5">
-							<div class="col">
-								<div class="owl-carousel stage-margin stage-margin-md nav-style-1 nav-svg-arrows-1 nav-dark mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750" data-plugin-options="{'responsive': {'0': {'items': 1}, '476': {'items': 2}, '768': {'items': 2}, '992': {'items': 3}, '1200': {'items': 4}}, 'autoHeight': true, 'autoplay': false, 'autoplayTimeout': 5000, 'autoplayHoverPause': true, 'dots': false, 'nav': true, 'loop': false, 'margin': 20, 'stagePadding': 75}">
-									<div>
-										<div class="custom-bg-lighten-grey-1 custom-min-height-1 text-center bg-color-hover-primary px-3 py-5">
-											<h4 class="text-color-light font-weight-bold text-6 mb-4">1968</h4>
-											<p class="text-color-light opacity-6 font-weight-light mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor. </p>
-										</div>
-									</div>
-									<div>
-										<div class="custom-bg-lighten-grey-1 custom-min-height-1 text-center bg-color-hover-primary px-3 py-5">
-											<h4 class="text-color-light font-weight-bold text-6 mb-4">1969</h4>
-											<p class="text-color-light opacity-6 font-weight-light mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum.</p>
-										</div>
-									</div>
-									<div>
-										<div class="custom-bg-lighten-grey-1 custom-min-height-1 text-center bg-color-hover-primary px-3 py-5">
-											<h4 class="text-color-light font-weight-bold text-6 mb-4">1972</h4>
-											<p class="text-color-light opacity-6 font-weight-light mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor. </p>
-										</div>
-									</div>
-									<div>
-										<div class="custom-bg-lighten-grey-1 custom-min-height-1 text-center bg-color-hover-primary px-3 py-5">
-											<h4 class="text-color-light font-weight-bold text-6 mb-4">1978</h4>
-											<p class="text-color-light opacity-6 font-weight-light mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum.</p>
-										</div>
-									</div>
-									<div>
-										<div class="custom-bg-lighten-grey-1 custom-min-height-1 text-center bg-color-hover-primary px-3 py-5">
-											<h4 class="text-color-light font-weight-bold text-6 mb-4">1983</h4>
-											<p class="text-color-light opacity-6 font-weight-light mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor. </p>
-										</div>
-									</div>
-									<div>
-										<div class="custom-bg-lighten-grey-1 custom-min-height-1 text-center bg-color-hover-primary px-3 py-5">
-											<h4 class="text-color-light font-weight-bold text-6 mb-4">1985</h4>
-											<p class="text-color-light opacity-6 font-weight-light mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum.</p>
-										</div>
-									</div>
-								</div>
+							<div class="overflow-hidden mb-3">
+								<h3 class="font-weight-bold text-transform-none text-9 line-height-2 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="400">Top Working Process</h3>
 							</div>
+							<!-- <p class="custom-font-secondary custom-font-size-1 line-height-7 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur.</p> -->
 						</div>
 					</div>
+					<div class="row">
+						<div class="col">
+							<div class="row justify-content-center process custom-process-style-1 my-5">
+								<div class="process-step col-sm-9 col-md-7 col-lg-4 mb-5 mb-lg-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">
+									<div class="process-step-circle">
+										<strong class="process-step-circle-content text-color-primary">1</strong>
+									</div>
+									<div class="process-step-content px-lg-4">
+										<h4 class="font-weight-bold custom-font-size-2 pb-1 mb-2">RAW MATERIALS</h4>
+										<p class="mb-0">We understand the importance of high quality ingredient to produce the high quality product. We only use the best and highest quality of the raw material to produce your plastic packaging.</p>
+									</div>
+								</div>
+								<div class="process-step col-sm-9 col-md-7 col-lg-4 mb-5 mb-lg-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
+									<div class="process-step-circle">
+										<strong class="process-step-circle-content text-color-primary">2</strong>
+									</div>
+									<div class="process-step-content px-lg-4">
+										<h4 class="font-weight-bold custom-font-size-2 pb-1 mb-2">EXTRUSION</h4>
+										<p class="mb-0">the first step to make your plastic packaging is to take all the raw material we need and put into extruder machine. the machine will melt the raw material and shape them to become a plastic sheet. The plastic sheet will be rolled once it is finish.</p>
+									</div>
+								</div>
+								<div class="process-step col-sm-9 col-md-7 col-lg-4 mb-5 mb-lg-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">
+									<div class="process-step-circle">
+										<strong class="process-step-circle-content text-color-primary">3</strong>
+									</div>
+									<div class="process-step-content px-lg-4">
+										<h4 class="font-weight-bold custom-font-size-2 pb-1 mb-2">THERMOFORMING</h4>
+										<p class="mb-0"> the thermoforming machine will heat up the plastic sheet and the pressed them to your desired shape. It will be cut and stacked before came out from the machine. the output from this process is your food graded plastic packaging with the best quality.</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
 				</section>
 
 				<section class="section section-height-3 overlay overlay-show overlay-color-primary overlay-op-8 border-0 m-0" style="background-image: url({{ URL::to('/') }}/pub/img/demos/industry-factory/backgrounds/background-2.jpg); background-size: cover; background-position: center;">
 					<div class="container py-3">
 						<div class="row align-items-center justify-content-center text-center text-lg-left">
 							<div class="col-md-8 col-lg-9 mb-4 mb-lg-0">
-								<h2 class="text-color-light font-weight-bold custom-positive-ls-5px mb-0">Get Your Next Project Done!</h2>
+								<h2 class="text-color-light font-weight-bold custom-positive-ls-5px mb-0">Mulai Bekerjasama dengan Kami!</h2>
 							</div>
 							<div class="col-lg-3 text-lg-right">
-								<a href="demo-industry-factory-contact.html" class="btn custom-svg-btn-style-1 custom-svg-btn-style-1-light custom-svg-btn-style-1-light-solid text-color-dark">
+								<a href="/contact" class="btn custom-svg-btn-style-1 custom-svg-btn-style-1-light custom-svg-btn-style-1-light-solid text-color-dark">
 									<svg class="custom-svg-btn-background" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 210 70" preserveAspectRatio="none">
 										<polygon fill="transparent" stroke="#FFF" stroke-width="2" stroke-miterlimit="10" points="7,5 185,5 205,34 186,63 7,63 "/>
 									</svg>
-									GET A QUOTE
+									Contact Us
 								</a>
 							</div>
 						</div>
 					</div>
 				</section>
-
-				<div class="container py-4 my-5">
-					<div class="row py-3">
-						<div class="col-lg-6">
-							<div class="overflow-hidden mb-2">
-								<h2 class="font-weight-bold text-11 line-height-2 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">The Highest Quality</h2>
-							</div>
-							<div class="overflow-hidden mb-3">
-								<h3 class="text-color-primary font-weight-medium positive-ls-3 text-4 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="400">THE LARGEST METALS MANUFACTURING</h3>
-							</div>
-							<p class="custom-font-secondary custom-font-size-1 line-height-7 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur.</p>
-						</div>
-						<div class="col-lg-6">
-							<p class="pt-3 pb-1 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="450">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur. Vestibulum auctor felis eget orci semper vestibulum. Pellentesque ultricies nibh gravida, accumsan libero luctus, molestie nunc. In nibh ipsum, blandit id faucibus ac, finibus vitae dui.</p>
-							<a href="#" class="custom-read-more btn btn-link d-inline-flex align-items-center font-weight-semibold text-decoration-none pl-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="650">
-								READ MORE 
-								<svg class="ml-2" version="1.1" viewBox="0 0 15.698 8.706" width="17" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-									<polygon stroke="#FFF" stroke-width="0.1" fill="#FFF" points="11.354,0 10.646,0.706 13.786,3.853 0,3.853 0,4.853 13.786,4.853 10.646,8 11.354,8.706 15.698,4.353 "/>
-								</svg>
-							</a>
-						</div>
-					</div>
-				</div>
+f
+			
 
 				@endsection
 
